@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Introduction to CSS</title>
+
+	<link rel="stylesheet" type="text/css" href="10-CSS-file.css">
+
+	<!-- 
+	selector {
+		property: value;
+	} 
+	-->
+	<style type="text/css">
+		h1 {
+			color:red;
+		}
+		li {
+			color:orange;
+		}
+	</style>
+</head>
+<body>
+	<h1>About Me</h1> <- this is modified by the external file and the internal style (the internal applies last)
+	<h4>My Hobbies</h4> <- this is modified by the external file
+	<ul>
+		<li style="color: purple;">Playing guitar</li> <- this is modified by the external file, the internal style, and the inline style (the inline applies last)
+		<li>Cooking</li> <- this is modified by the external file and the internal style (the internal applies last)
+		<li>Origami</li> <- this is modified by the external file and the internal style (the internal applies last)
+	</ul>
+</body>
+</html>

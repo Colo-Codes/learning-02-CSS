@@ -1,0 +1,16 @@
+img {
+	width: 30%;		/* 30% x 3 = 90% */
+	float: left;
+	margin: 1.66%;	/* 1.66% x (2+2+2) =~ 10% (This plus images =~ 100%) */
+}
+p {
+	margin-left: 1.66%;
+	width: 30%;
+	/*height: 40px;*/
+	padding-bottom: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 23px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-bottom: 2px solid lightgray;
+}

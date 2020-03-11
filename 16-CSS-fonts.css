@@ -1,0 +1,53 @@
+/* font-family */
+p {
+	font-family: Arial;
+}
+h1 {
+	font-family: Georgia;
+}
+/* font-size */
+body {
+	font-size: 20px; /* What developers usually do is set up a font value at start (body {font-size:16px;}) to establish the parent of the em (and gain cross-browser equality. */
+}
+h1 {
+	font-size: 50px;
+}
+span {
+	font-size: 2.0em; /* The em is in relation with the parent of the element. */
+}
+/* font-weight */
+p {
+	font-weight: bold;
+}
+/* line-height */
+p {
+	line-height: 2;
+}
+/* text-align */
+h1 {
+	text-align: right;
+}
+p {
+	text-align: center;
+}
+/* text-decoration */
+p:nth-of-type(2) {
+	text-decoration: underline;
+}
+p:nth-of-type(3) {
+	font-family: 'Oswald', sans-serif;
+}
+p:nth-of-type(4) {
+	font-family: 'Raleway', sans-serif;
+}
+p:nth-of-type(5) {
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+}
+
+
+
+
+
+
+

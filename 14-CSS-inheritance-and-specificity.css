@@ -1,0 +1,21 @@
+/*
+selector {
+	property: value;
+}
+*/
+
+body {
+	color: red;
+}
+ul {	
+	color: purple;
+}
+li {
+	color: orange;
+}
+.highlight {
+	color: brown;
+}
+#theOne {
+	color: pink;
+}

@@ -1,0 +1,30 @@
+/*
+The colour combination system is different as how it is in real life.
+*/
+h1 {
+	color: #FF0000;
+}
+h2 {
+	color: #00FF00;
+	border: 5px dotted blue;
+}
+h3 {
+	color: #0000FF;
+}
+h4 {
+	color: #888888;
+}
+h5 {
+	color: #FF8C00;
+}
+h6 {
+	color: rgb(255,10,10);
+}
+div {
+	color: rgba(255,0,0,.5);
+	background: #3498db;
+	border: medium dashed green;
+}
+body {
+	background: #95a5a6;
+}

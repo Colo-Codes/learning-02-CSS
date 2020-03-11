@@ -1,0 +1,40 @@
+h1 {
+	text-align: center;
+}
+table {
+	margin: 10% auto;
+}
+td {
+	/*background: lightgrey;*/
+	width: 100px;
+	height: 100px;
+}
+tr:nth-of-type(1) td {
+	border-bottom: 2px dashed olive;
+}
+tr:nth-of-type(2) td {
+	border-bottom: 2px dashed olive;
+}
+tr td:nth-of-type(1) {
+	border-right: 2px dashed olive;
+}
+tr td:nth-of-type(2) {
+	border-right: 2px dashed olive;
+}
+
+
+/* 
+Alternative solution: 
+
+td:nth-of-type(2) {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+ 
+}
+ 
+tr:nth-of-type(2) td {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+ }
+
+*/
